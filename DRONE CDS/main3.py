@@ -80,7 +80,7 @@ def detect_potholes_edge_based(frame):
     return frame, closed, pothole_detected, pothole_count
 
 def main():
-    video_source = "road_video.mp4" # Or 0 for camera
+    video_source = 2 # Or 0 for camera
     cap = cv2.VideoCapture(video_source)
 
     cooldown_time = 8

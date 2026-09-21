@@ -1,3 +1,6 @@
+
+#ye wala pakka final hai
+
 import cv2
 import numpy as np
 import requests
@@ -119,7 +122,7 @@ def detect_potholes(frame):
 
 def main():
     # Set to 0 for camera feed or path to video, e.g., "road.mp4"
-    video_source = 0 
+    video_source = 2 
     cap = cv2.VideoCapture(video_source)
 
     if not cap.isOpened():

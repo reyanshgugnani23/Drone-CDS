@@ -79,7 +79,7 @@ def detect_potholes_edge_based(frame):
     return frame, closed, pothole_detected, pothole_count
 
 def main():
-    video_source = "road_video.mp4" 
+    video_source = 2
 
     if isinstance(video_source, str) and not os.path.exists(video_source):
         print(f"[Warning] File '{video_source}' not found. Falling back to webcam (0)...")
